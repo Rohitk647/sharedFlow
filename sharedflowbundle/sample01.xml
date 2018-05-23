@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="sample01">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1525718318111</CreatedAt>
+    <CreatedBy>venkatasaik@sidglobal.net</CreatedBy>
+    <Description></Description>
+    <DisplayName>demoSharedFlow</DisplayName>
+    <LastModifiedAt>1526585376252</LastModifiedAt>
+    <LastModifiedBy>venkatasaik@sidglobal.net</LastModifiedBy>
+    <Policies>
+        <Policy>SA_sample</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <validate>false</validate>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
