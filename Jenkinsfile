@@ -7,10 +7,10 @@ pipeline {
             stage('Deploy the sharedflow') {
                 steps {
                 dir('edge') {
-                    sh "mvn install " +
-                            "    -Ptest -Denv=${params.apigee_env} -Dorg=${params.apigee_org} " +
+                     bat "mvn install " +
+                            "    -Pqa -Denv=${params.apigee_env} -Dorg=${params.apigee_org} " +
                             "    -Dusername=${params.apigee_user} " +
-                            "    -Dpassword=${params.apigee_pwd}""
+                            "    -Dpassword=${params.apigee_pwd}"
                 }
             }
         }
